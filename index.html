@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Survey</h1>
+      <form id="survey">
+        <div class="form-group">
+          <label for="color">What is your favorite color?</label>
+          <input id="color" class="form-control" type="color">
+        </div>
+
+        <!-- <h3>What is your favorite color??</h3>
+        <select class="form-control" id="color">
+          <option value="1">Blue</option>
+          <option value="2">Yellow</option>
+          <option value="3">Green</option>
+          <option value="4">Red</option>
+          <option value="5">Hotpink</option>
+          <option value="6">Puppies</option>
+          <option value="7">Eggplant</option>
+          <option value="8">Black</option>
+          <option value="9">White</option>
+        </select>  -->
+
+        <h3>What is your favorite food??</h3>
+        <select class="form-control" id="food">
+          <option value="Pizza">Pizza</option>
+          <option value="TicTacs">TicTacs</option>
+          <option value="Burrito">Burrito</option>
+          <option value="Sushi">Sushi</option>
+          <option value="Sandwich">Sandwich</option>
+          <option value="Gyros">Gyros</option>
+          <option value="Crepes">Crepes</option>
+          <option value="Cupcakes">Cupcakes</option>
+          <option value="Meat">Any type of meat</option>
+        </select>
+
+        <button id="placeOrder" type="submit" class="btn">Submit your survey</button>
+      </form>
+      <div id="output">
+      </div>
+    </div>
+  </body>
+</html>
