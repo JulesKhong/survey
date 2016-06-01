@@ -1,5 +1,5 @@
-var userSummary = function(color, food) {
-  return color + " " + food;
+var favFood = function(food) {
+  return food;
 };
 
 $(document).ready(function() {
@@ -7,7 +7,8 @@ $(document).ready(function() {
     event.preventDefault();
     var color = $("#color").val();
     var food = $("#food").val();
-    var result = userSummary(color, food);
+    var result = favFood(food);
     $("#output").text("Would you like some " + result + "?")
+  $("body").css("background-color", color);
   });
 });
